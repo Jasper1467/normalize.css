@@ -213,7 +213,15 @@ details {
   display: block;
 }
 
+<<<<<<< HEAD
 summary {
+=======
+/*
+ * Add the correct display in all browsers.
+ */
+
+details > summary:first-of-type {
+>>>>>>> b69b8157d8af3fb50a36bc10affc724ae0022ef7
   display: list-item;
 }
 
