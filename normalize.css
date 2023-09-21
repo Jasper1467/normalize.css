@@ -5,8 +5,8 @@
 
 /* Ensure consistent line height and prevent font adjustments after orientation changes in iOS */
 html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
 }
 
 /* Sections */
@@ -14,50 +14,42 @@ html {
 
 /* Reset default margin */
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /* Render the 'main' element consistently in IE */
 main {
-  display: block;
+    display: block;
 }
 
 /* Enhance headings within sections and articles */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
-<<<<<<< HEAD
 /* Grouping content */
 /* ========================================================================== */
-=======
-/* Grouping content
-   ========================================================================== */
 
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Hide the overflow in Edge and IE.
- */
->>>>>>> 4a8722a6a0e36d76bf3e7340d33619905b35b6cb
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Hide the overflow in Edge and IE.
+   */
 
 /* Improve appearance of horizontal rules */
 hr {
-<<<<<<< HEAD
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-=======
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: hidden; /* 2 */
->>>>>>> 4a8722a6a0e36d76bf3e7340d33619905b35b6cb
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: hidden;
+    /* 2 */
 }
 
 /* Enhance preformatted text display */
 pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
+    font-family: monospace, monospace;
+    font-size: 1em;
 }
 
 /* Text-level semantics */
@@ -65,49 +57,49 @@ pre {
 
 /* Improve appearance of active links */
 a {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /* Enhance underlined abbreviation styles */
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline dotted;
+    border-bottom: none;
+    text-decoration: underline dotted;
 }
 
 /* Enhance bold and strong text styles */
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /* Improve code and keyboard input display */
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+    font-family: monospace, monospace;
+    font-size: 1em;
 }
 
 /* Adjust font size for small elements */
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /* Enhance appearance of subscript and superscript */
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /* Embedded content */
@@ -115,7 +107,7 @@ sup {
 
 /* Remove border on linked images in IE */
 img {
-  border-style: none;
+    border-style: none;
 }
 
 /* Forms */
@@ -127,21 +119,21 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
 }
 
 /* Adjust overflow and text transform for certain form elements */
 button,
 input {
-  overflow: visible;
+    overflow: visible;
 }
 
 button,
 select {
-  text-transform: none;
+    text-transform: none;
 }
 
 /* Improve clickable styles for certain buttons */
@@ -149,7 +141,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+    -webkit-appearance: button;
 }
 
 /* Reset focus styles */
@@ -157,8 +149,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 /* Correct focus styles */
@@ -166,59 +158,59 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 /* Adjust fieldset padding and legend appearance */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+    padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
-  box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
 }
 
 /* Improve alignment of progress elements */
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /* Improve appearance of textareas */
 textarea {
-  overflow: auto;
+    overflow: auto;
 }
 
 /* Adjust checkbox and radio button styles */
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 /* Adjust appearance of number input spin buttons */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /* Adjust appearance of search input */
 [type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
 }
 
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
+    -webkit-appearance: button;
+    font: inherit;
 }
 
 /* Interactive */
@@ -226,19 +218,15 @@ textarea {
 
 /* Adjust display for details and summary elements */
 details {
-  display: block;
+    display: block;
 }
 
-<<<<<<< HEAD
-summary {
-=======
 /*
- * Add the correct display in all browsers.
- */
+   * Add the correct display in all browsers.
+   */
 
 details > summary:first-of-type {
->>>>>>> b69b8157d8af3fb50a36bc10affc724ae0022ef7
-  display: list-item;
+    display: list-item;
 }
 
 /* Misc */
@@ -246,18 +234,18 @@ details > summary:first-of-type {
 
 /* Hide template elements */
 template {
-  display: none;
+    display: none;
 }
 
 /* Hide elements with hidden attribute */
 [hidden] {
-  display: none;
+    display: none;
 }
 
 /**
- * Default list style to "outside" in Chrome
- */
+   * Default list style to "outside" in Chrome
+   */
 
 li {
-  list-style-position: outside;
+    list-style-position: outside;
 }
