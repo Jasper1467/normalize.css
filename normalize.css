@@ -28,14 +28,30 @@ h1 {
   margin: 0.67em 0;
 }
 
+<<<<<<< HEAD
 /* Grouping content */
 /* ========================================================================== */
+=======
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Hide the overflow in Edge and IE.
+ */
+>>>>>>> 4a8722a6a0e36d76bf3e7340d33619905b35b6cb
 
 /* Improve appearance of horizontal rules */
 hr {
+<<<<<<< HEAD
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+=======
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: hidden; /* 2 */
+>>>>>>> 4a8722a6a0e36d76bf3e7340d33619905b35b6cb
 }
 
 /* Enhance preformatted text display */
